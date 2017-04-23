@@ -1,0 +1,385 @@
+Last login: Tue Feb  7 21:07:44 on ttys000
+Jacks-MacBook-Pro-3:~ jackgorlin$ ls
+Adobe					Library
+Amazon Drive				Movies
+Applications				Music
+Creative Cloud Files (archived) (1)	Pictures
+Desktop					Pond5_T2319763
+Documents				Public
+Downloads				Untitled.Rmd
+Dropbox					isus
+GitHub					lightspeed
+Jacks-MacBook-Pro-3:~ jackgorlin$ cd
+Jacks-MacBook-Pro-3:~ jackgorlin$ cd Documents/
+Jacks-MacBook-Pro-3:Documents jackgorlin$ cd..
+-bash: cd..: command not found
+Jacks-MacBook-Pro-3:Documents jackgorlin$ cd ..
+Jacks-MacBook-Pro-3:~ jackgorlin$ ls
+Adobe					Library
+Amazon Drive				Movies
+Applications				Music
+Creative Cloud Files (archived) (1)	Pictures
+Desktop					Pond5_T2319763
+Documents				Public
+Downloads				Untitled.Rmd
+Dropbox					isus
+GitHub					lightspeed
+Jacks-MacBook-Pro-3:~ jackgorlin$ ls -l
+total 8
+drwxrwxrwx     3 jackgorlin  staff    102 Mar 27  2014 Adobe
+drwxr-xr-x@    4 jackgorlin  staff    136 Dec 27 18:24 Amazon Drive
+drwx------     6 jackgorlin  staff    204 May 11  2016 Applications
+drwxrwxrwx     2 jackgorlin  staff     68 Jun 19  2015 Creative Cloud Files (archived) (1)
+drwx------+   14 jackgorlin  staff    476 Feb  1 11:55 Desktop
+drwx------+   29 jackgorlin  staff    986 Nov 27 20:12 Documents
+drwx------+ 1095 jackgorlin  staff  37230 Feb  7 19:30 Downloads
+drwx------@   17 jackgorlin  staff    578 Feb  7 21:09 Dropbox
+drwxr-xr-x     3 jackgorlin  staff    102 Feb 28  2016 GitHub
+drwx------@   65 jackgorlin  staff   2210 Feb  7 20:34 Library
+drwx------+   12 jackgorlin  staff    408 Sep  3 15:37 Movies
+drwx------+   10 jackgorlin  staff    340 Oct 12 17:18 Music
+drwx------+   16 jackgorlin  staff    544 Jan  6 11:21 Pictures
+drwxr-xr-x    97 jackgorlin  staff   3298 Oct 27 09:00 Pond5_T2319763
+drwxr-xr-x+    6 jackgorlin  staff    204 Apr 18  2016 Public
+-rw-r--r--     1 jackgorlin  staff   1907 Nov 30 14:25 Untitled.Rmd
+drwxr-xr-x     3 jackgorlin  staff    102 Jul 27  2016 isus
+drwxr-xr-x    18 jackgorlin  staff    612 May 12  2016 lightspeed
+Jacks-MacBook-Pro-3:~ jackgorlin$ ls
+Adobe					Library
+Amazon Drive				Movies
+Applications				Music
+Creative Cloud Files (archived) (1)	Pictures
+Desktop					Pond5_T2319763
+Documents				Public
+Downloads				Untitled.Rmd
+Dropbox					isus
+GitHub					lightspeed
+Jacks-MacBook-Pro-3:~ jackgorlin$ cd Desktop
+Jacks-MacBook-Pro-3:Desktop jackgorlin$ mkdir comp420
+Jacks-MacBook-Pro-3:Desktop jackgorlin$ ls
+AP Invoice 1001.pdf			Cam Test FIles				Junior Year				Vid_Assets
+AP Invoice 1002.pdf			Jack Gorlin Resume - Jan2017.pdf	SCRATCH_WORKING				comp420
+Archive 9				Jack_Gorlin_AP_344_Submission		Screenshots
+Jacks-MacBook-Pro-3:Desktop jackgorlin$ cd comp420
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ echo "Hello"
+Hello
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ echo "fun" > fun.txt
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ open " fun.txt"
+The file /Users/jackgorlin/Desktop/comp420/ fun.txt does not exist.
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ open.
+-bash: open.: command not found
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ head fun.txt
+fun
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ open .
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ mkdir test
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ ls
+fun.txt	test
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ rmdir 
+fun.txt  test/    
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ rmdir test/
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ ls
+fun.txt
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git --version
+git version 2.7.1
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git init
+Initialized empty Git repository in /Users/jackgorlin/Desktop/comp420/.git/
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	fun.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git add fun.txt
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   fun.txt
+
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ exho "# This is a README" > README.md
+-bash: exho: command not found
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ echo "# This is a README" > README.md
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   fun.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	README.md
+
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+	add
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git add .
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+	new file:   fun.txt
+
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ echo "aaaaaa" > a.txt
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+	new file:   fun.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	a.txt
+
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ echo "bbbbb" > b.txt
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+	new file:   fun.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	a.txt
+	b.txt
+
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ echo "ccccc" > c.txt
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+	new file:   fun.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	a.txt
+	b.txt
+	c.txt
+
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ echo "ddddddd" > d.md
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+	new file:   fun.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	a.txt
+	b.txt
+	c.txt
+	d.md
+
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ add *.txt
+-bash: add: command not found
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ add .
+-bash: add: command not found
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+	add
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git add .
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+	new file:   a.txt
+	new file:   b.txt
+	new file:   c.txt
+	new file:   d.md
+	new file:   fun.txt
+
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git commit -m "my first commit"
+[master (root-commit) 516f7f1] my first commit
+ 6 files changed, 6 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 a.txt
+ create mode 100644 b.txt
+ create mode 100644 c.txt
+ create mode 100644 d.md
+ create mode 100644 fun.txt
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch master
+nothing to commit, working directory clean
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git remote add origin https://github.com/jackgorlin/comp420_test.git
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git push -u origin master
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (8/8), 430 bytes | 0 bytes/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+To https://github.com/jackgorlin/comp420_test.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git branch test_branch
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git branch
+* master
+  test_branch
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git checkout test_branch
+Switched to branch 'test_branch'
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ echo "add a new file" > newfile.txt
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch test_branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	newfile.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git add commit -m "adding things on branch"
+error: unknown switch `m'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ add .
+-bash: add: command not found
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git add .
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git push
+fatal: The current branch test_branch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin test_branch
+
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git push origin test_branch
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/jackgorlin/comp420_test.git
+ * [new branch]      test_branch -> test_branch
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git checkout master
+A	newfile.txt
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git merge test_branch
+Already up-to-date.
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   newfile.txt
+
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git push
+Everything up-to-date
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git branch -d test_branch
+Deleted branch test_branch (was 516f7f1).
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ cd Desktop
+-bash: cd: Desktop: No such file or directory
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ cd origin
+-bash: cd: origin: No such file or directory
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ cd ..
+Jacks-MacBook-Pro-3:Desktop jackgorlin$ cd Junior Year
+-bash: cd: Junior: No such file or directory
+Jacks-MacBook-Pro-3:Desktop jackgorlin$ cd Junior year
+-bash: cd: Junior: No such file or directory
+Jacks-MacBook-Pro-3:Desktop jackgorlin$ cd Junior Year
+-bash: cd: Junior: No such file or directory
+Jacks-MacBook-Pro-3:Desktop jackgorlin$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Jacks-MacBook-Pro-3:Desktop jackgorlin$ git comp420
+git: 'comp420' is not a git command. See 'git --help'.
+Jacks-MacBook-Pro-3:Desktop jackgorlin$ cd comp420
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   newfile.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	part1.md
+	part2.html
+
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git add .
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   newfile.txt
+	new file:   part1.md
+	new file:   part2.html
+
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git commit -m "my submission for homework 0"
+[master cc3bc7b] my submission for homework 0
+ 3 files changed, 18 insertions(+)
+ create mode 100644 newfile.txt
+ create mode 100755 part1.md
+ create mode 100755 part2.html
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ git push
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 573 bytes | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/jackgorlin/comp420_test.git
+   516f7f1..cc3bc7b  master -> master
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ 

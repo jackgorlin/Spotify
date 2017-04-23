@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery example</title>
+	<style>
+		body {
+			height: 100vh;
+			display: flex;
+			font-family: Helvetica;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		body > div > * {
+			margin-bottom: 40px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h2 id="title"> My Form </h2>
+		<div>
+			<label for="text-input">Enter something</label>
+			<input type="text" placeholder="Lazy placeholder">
+		</div>
+		<div>
+			<button>Button 1</button>
+			<button>Button 2</button>
+			<button>Button 3</button>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="code_2.js"></script>
+</body>
+</html>

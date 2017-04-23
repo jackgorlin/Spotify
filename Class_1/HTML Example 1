@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"
+	<title>CODE EXAMPLE</title>
+</head>
+<body>
+	<h1 style = "color : blue;">
+
+	MY PROFILE 
+	</h1>
+	<img src = "https://pbs.twimg.com/profile_images/378800000822867536/3f5a00acf72df93528b6bb7cd0a4fd0c.jpeg">
+	<figcaption>
+	<a href="https://www.youtube.com/" target="_blank"> visit me 
+	on FB</a>a>
+	</figcaption>
+</body>
+</html>

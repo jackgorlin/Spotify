@@ -1,0 +1,83 @@
+.med-paragraph{
+	max-height: 450px;
+	padding: 0px 0px 30px 0px;
+	font-size: 30px;
+	color: white;
+	font-family: serif;
+	margin-left: auto ;
+	margin-right: auto ;
+	position: relative;
+	top: 10px;
+}
+
+.paragraph-group {
+	width: 850px ;
+	padding: 10px 10px 10px 40px;
+	margin-left: auto ;
+	margin-right: auto ;
+	text-align:justify;
+	float: left;
+}
+
+figure {
+	display: inline-block;
+	margin: 20px;
+	float: left;
+}
+
+figure img {
+	width: 450px;
+	height: 450px;
+}
+
+figure figcaption {
+	text-align: left;
+	font-size: 18px;
+	color: white;
+}
+
+body {
+	background-size: 1750px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+}
+
+.text-box {
+	position: relative;
+	left: 510px;
+	top: 14px;
+	width: 890px;
+	height: 455px;
+	background-color: black;
+	opacity: .45;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1;
+    overflow: hidden;
+    position: relative;
+    top: -20px;
+    left: 445px;
+
+}
+
+li {
+	float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+	font-family: serif;
+	font-size: 18px;
+}
+
+li a:hover {
+	color: blue;
+}

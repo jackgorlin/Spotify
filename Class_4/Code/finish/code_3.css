@@ -1,0 +1,97 @@
+html {
+	font-family: Helvetica;
+}
+
+body {
+	margin: 0 0;
+}
+
+a, a:visited {
+	color: rgba(0,0,0,0.7);
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#main-frame {
+	margin: 0px 0px;
+	overflow: hidden;
+}
+
+.docked-nav {
+	height: 100%;
+	background-color: white;
+	box-shadow: 1px 0px 5px rgba(0,0,0,0.6);
+	width: 250px;
+	position: fixed;
+}
+
+.docked-nav-items {
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.docked-nav-items > li{
+	padding-top: 25px;
+	padding-left: 20px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.brand > img {
+	max-height: 120px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.brand > h2 {
+	margin-bottom: 0;
+}
+
+.article {
+	padding-top: 40px;
+	padding-right: 150px;
+	padding-left: 150px;
+}
+
+#nav-open {
+	position: fixed;
+	top: 30px;
+	left: 50px;
+}
+
+#nav-close {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+/*Edit the CSS of some elements down here*/
+
+/*TODO: Add transitions to docked-nav and article*/
+
+/*TODO: initially hide the docked-nav using transform: translateX*/
+
+/*TODO: Define the properties of docked-nav and article when active*/
+.docked-nav {
+	transition: transform 0.7s ease;
+	transform: translateX(-250px);
+}
+
+.docked-nav.active {
+	transform: translateX(0px);
+}
+
+.article {
+	transition: all 0.7s ease;
+}
+
+.article.active {
+	transform: translateX(150px);
+}

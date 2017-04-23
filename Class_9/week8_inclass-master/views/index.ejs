@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MongoDB demo</title>
+</head>
+<body>
+  This is a demo
+
+  <ul class="quotes">
+    <% for(var i = 0; i < quotes.length; i++) {%>
+        <li class="quote">
+            <span><%= quotes[i].name %></span>
+            <span><%= quotes[i].quote %></span>
+        </li>
+    <% } %>
+    </ul>
+
+  <form action="/quotes" method="POST">
+    <input type="text" placeholder="name" name="name">
+    <input type="text" placeholder="quote" name="quote">
+    <button type="submit">Submit</button>
+  </form>
+
+  <div>
+    <h3>Replace last quote that Jason says to a quote written by Duong</h3>
+    <button id="update"> Duong's comeback! </button>
+  </div>
+
+  <div>
+    <h3>Delete Duong's first quote</h3>
+    <button id="delete"> Delete quote </button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Quote Book</title>
+	<style>
+		body {
+			font-family: Helvetica;
+			display:flex;
+			flex-direction: column;
+		    align-items: center;
+		    justify-content: center;
+		}
+			
+		h1 {
+			font-size: 35px;
+		}
+
+		.small-icon {
+			float: top;
+			margin: 0 -1%;
+  			width: 0%;
+		}
+
+		.small-icon > img {
+			width: 40px;
+			height: 40px;
+		}
+
+		.card-group {
+			list-style: none;
+		}
+
+		.card-group > li {
+			width: 500px;
+			margin-bottom: 25px;
+			padding: 15px 30px 15px 30px;
+			border-radius: 10px;
+			box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+		}
+
+		.quote-group {
+			position: relative;
+			max-width: 425px;
+			left: 70px
+		}
+
+		.quote-group > .quote-body {
+			font-size: 18px;
+			margin-top: 0px;
+		}
+
+		.quote-group > .quote-author {
+			font-weight: bold;
+			margin-bottom: 0px;
+		}
+	</style>
+</head>
+<body>
+	<h1 style = "color : green;">
+
+	Quote Book
+	</h1>
+	<ul class="card-group">
+		<li>
+			<a class="small-icon" href=""><img src="/Users/jackgorlin/Desktop/comp420/Homework_1/plus.png"></a>
+			<div class="quote-group">
+				<p class="quote-body"> All you need in this life is ignorance and confidence, and then success is sure. 
+				</p>
+				<p class = "quote-author" > Mark Twain</p>
+			</div>
+		</li>
+
+		<li>
+			<a class="small-icon" href=""><img src="/Users/jackgorlin/Desktop/comp420/Homework_1/plus.png"></a>
+			<div class="quote-group">
+				<p class="quote-body"> If it's your job to eat a frog, it's best to do it first thing in the morning. And if it's your job to eat two frogs, it's best to eat the biggest one first.
+				</p>
+				<p class = "quote-author" > Mark Twain</p>
+			</div>
+		</li>
+
+		<li>
+			<a class="small-icon" href=""><img src="/Users/jackgorlin/Desktop/comp420/Homework_1/plus.png"></a>
+			<div class="quote-group">
+				<p class="quote-body"> In a good bookroom you feel in some mysterious way that you are absorbing the wisdom contained in all the books through your skin, without even opening them. 
+				</p>
+				<p class = "quote-author" > Mark Twain</p>
+			</div>
+		</li>
+	</ul>
+</body>
+</html>

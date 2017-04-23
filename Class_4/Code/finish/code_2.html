@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DOM</title>
+
+		<style>
+			body {
+				font-family: Helvetica;
+				margin-top: 200px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			ul {
+				border: 1px solid #858585;
+				padding: 60px;
+			}
+
+			li {
+				font-size: 40px;
+				margin-bottom: 50px;
+				transition: all 1s ease;
+			}
+
+			li.active {
+				font-size: 50px;
+				background-color: #FF5C5C;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="grandparent">
+			<ul id="parent">
+				<li id="first">First Child</li>
+				<li id="second">Second Child</li>
+				<li id="last">Last Child</li>
+			</ul>
+		</div>
+
+		<script type="text/javascript" src="code_2.js"></script>
+	</body>
+
+</html>

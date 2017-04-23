@@ -1,0 +1,21 @@
+#main {
+	margin-top: 200px;
+}
+
+#budget-sheet {
+	list-style: none;
+}
+
+#budget-sheet > li {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #DFDFDF;
+}
+
+#new-budget {
+	margin-top: 40px;
+}
+
+.details {
+	font-size: 20px;
+}

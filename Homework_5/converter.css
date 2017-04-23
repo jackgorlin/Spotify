@@ -1,0 +1,45 @@
+body
+
+#converter {
+	font-size:1500%;
+	text-align: center;
+	font-family: futura;
+	transition: color 1s ease;
+}
+
+
+.converter-button {
+	width: 150px;
+	height: 50px;
+	font-family: futura;
+	font-size: 110%;
+	border-radius: 5px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin: auto;
+	display: block;
+
+}
+
+.converter-button:hover{
+	font-size: 125%;
+}
+
+#conveter:hover {
+	color: darkblue;
+
+}
+
+.title {
+	font-family: futura;
+	font-size: 300%;
+	text-align: center;
+}
+
+#starter{
+	text-align: center;
+	font-size: 150%;
+	padding-bottom: 25px;
+	padding-left: 35px;
+}

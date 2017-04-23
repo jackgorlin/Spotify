@@ -1,0 +1,31 @@
+#trackDiv {
+	font-family: "Proxima Nova";
+	background-color: lightblue;
+	text-align: left;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	border-style: solid;
+	border-left: none;
+}
+
+#artistDiv{
+	font-family: "Proxima Nova";
+	background-color: pink;
+	text-align: left;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	border-style: solid;
+}
+
+#title{
+	font-family: "Proxima Nova";
+	text-align: center;
+	text-decoration: bold;
+	font-size: 50px;
+	padding-top: 25px;
+}
+
+#sectionTitle {
+	text-align: center;
+	font-size:25px;
+}

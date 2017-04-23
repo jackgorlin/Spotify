@@ -1,0 +1,35 @@
+body
+
+#timer {
+	font-size:1500%;
+	text-align: center;
+	font-family: futura;
+	transition: color 1s ease;
+}
+
+
+.button-container {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+}
+.timer-button {
+	width: 32%;
+	height: 50px;
+	font-family: futura;
+	font-size: 110%;
+	float: left;
+	margin: 3px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.timer-button:hover{
+	font-size: 125%;
+}
+
+#timer:hover {
+	color: darkblue;
+
+}

@@ -1,0 +1,25 @@
+1.
+
+function countInstances(string, word) {
+   var substrings = string.split(word);
+   return substrings.length - 1;
+}
+
+
+function word_count(string) {
+	var split = string.split (" ")
+	var obj = {};
+
+
+
+	for (var i = 0; i < split.length; i++) {
+		obj[split[i]] = countInstances(string, split[i])
+	}
+	
+	return obj
+}
+
+
+2.
+
+In band_objects.js

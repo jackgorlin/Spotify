@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.dvu-font {
+	font-family: 'Roboto', sans-serif;
+}
+
+#doge-img {
+	width: 700px;
+	height: 300px;
+}
+
+/*Try using descendant selector*/
+p {
+	text-decoration: underline;
+}
+
+.italic-list > li {
+	font-style: italic;
+}
+
+input[type='text'] {
+	border-radius: 30px;
+}

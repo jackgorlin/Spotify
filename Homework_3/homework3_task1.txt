@@ -1,0 +1,35 @@
+1.
+
+122 --> attaching two strings "2" and "2" to the integer 1. Becomes one string
+32 --> For this and the next, it seems like having + + or + - before a number in a string converts that string into a number
+02 --> see above
+112 --> combining 3 strings
+NaN2 --> cannot perform subtraction on strings
+NaN --> cannot perform subtraction on strings
+
+FINISH THIS
+======================================
+
+
+2.
+
+True
+False
+
+Explanation: == doesn't check type, === does.
+
+
+======================================
+
+3.
+
+Guess:
+.3
+True
+
+Actual:
+0.30000000000000004
+false
+
+Explanation: You can't do exact math with it using normal floating point methods.
+

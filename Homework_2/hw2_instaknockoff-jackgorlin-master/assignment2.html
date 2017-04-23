@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Instagram Knock-off</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assignment2.css">
+  </head>
+  <body>
+
+      <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <i class="fa fa-instagram fa-2x"> </i>
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <i 
+                class="fa fa-compass fa-2x upper-right-icon"> 
+              </i>
+            </li>
+            <li>
+              <i 
+                class="fa fa-heart-o fa-2x upper-right-icon"> 
+              </i>
+            </li>
+            <li>
+              <i 
+                class="fa fa-user-o fa-2x upper-right-icon"> 
+              </i>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <!-- Everything should be contained in a .container or .container-fluid -->
+    <div class="container">
+
+      <div class="thumbnail col-md-6 col-md-offset-3">
+        <!-- The header contains username of the owner -->
+        <div class="header">
+          <p><strong> <span class="username"> jackgorlin </span> </strong> 
+              <el class="pull-right" style="padding-right: 8px">
+                4h
+              </el>
+          </p>
+        </div>
+        
+        <!-- Our image -->
+        <img src="images/landscape.jpg" alt="landscape">
+
+        <!-- Details include number of likes, image description, comments, and user feedback form-->
+        <div class="details">
+          <p class="likes"> <strong> 10,000 likes </strong></p>
+          <p class="description">
+            <strong> <span class="username"> jackgorlin </span></strong> Look at this beautiful landscape I downloaded from Google #nature <span style="color: lightblue;">#photography #nofilter</span>
+          </p>
+
+          <ul class="comments">
+            <li><strong> <span class="username"> kanye </span></strong> Wow, that's awesome!</li>
+            <li><strong> <span class="username"> selenagomez </span></strong> Second comment!</li>
+          </ul>
+          
+          <hr>
+
+          <div class="feedback">
+            <a class="pull-left" href="#">
+              <i class="fa fa-heart-o"> </i>
+            </a>
+            <input class="comment-input" type="text" placeholder="Add a comment...">
+            <a class="pull-right" href="#">
+              <i class="fa fa-th-large"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

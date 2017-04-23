@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Pokemon Generator</title>
+    <style>
+        html {
+          font-family: 'Futura';
+        }
+        #content {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 8vw;
+          text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div id="content"></div>
+    <script type="text/javascript">
+    function reqListener () {
+        var response = JSON.parse(this.responseText);
+        console.log(response);
+        document.getElementById("content").innerHTML = response.name;
+    }
+
+    function generateRandomNumber () {
+        return Math.floor(Math.random() * 151 + 1);
+    }
+
+    var request = new XMLHttpRequest();
+    var pokeAPI = "http://pokeapi.co/api/v2/pokemon/";
+    request.addEventListener("load", reqListener);
+    request.open("GET", pokeAPI + generateRandomNumber() + "/");
+    request.send();
+    </script>
+</body>
+</html>

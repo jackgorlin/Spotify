@@ -1,0 +1,535 @@
+Last login: Tue Feb 21 19:35:42 on ttys001
+Jacks-MacBook-Pro-3:~ jackgorlin$ cd Desktop
+Jacks-MacBook-Pro-3:Desktop jackgorlin$ cd Comp420
+Jacks-MacBook-Pro-3:Comp420 jackgorlin$ cd Class_3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Hello
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:1
+(function (exports, require, module, __filename, __dirname) { vax x = 3;
+                                                                  ^
+SyntaxError: Unexpected identifier
+    at Object.exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:1
+(function (exports, require, module, __filename, __dirname) { vax x = 3;
+                                                                  ^
+SyntaxError: Unexpected identifier
+    at Object.exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:4
+console.log(x+y);
+              ^
+
+ReferenceError: y is not defined
+    at Object.<anonymous> (/Users/jackgorlin/Desktop/comp420/Class_3/test.js:4:15)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+7
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+7
+12
+-1
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+7
+12
+-1
+jason4
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+7
+12
+-1
+jason4
+true
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+7
+12
+-1
+jason4
+false
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+7
+12
+-1
+jason4
+false
+x is bigger than 3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+7
+12
+-1
+jason4
+false
+x is less than 3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jason
+2017
+Computer Science
+name
+class_year
+major
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jason
+2017
+Computer Science
+undefined
+undefined
+undefined
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jason
+2017
+Computer Science
+name
+class_year
+major
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jason
+2017
+Computer Science
+Jason
+2017
+Computer Science
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jason
+2017
+Computer Science
+Jason
+2017
+Computer Science
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jason
+2017
+Computer Science
+Duong
+2017
+Computer Science
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jason
+2017
+Computer Science
+Duong
+2018
+Art
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jason
+2017
+Computer Science
+Vanessa
+Vanessa
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:34
+function plus.one (n) {
+             ^
+SyntaxError: Unexpected token .
+    at Object.exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:33
+function plus.one (n) {
+             ^
+SyntaxError: Unexpected token .
+    at Object.exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+2
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:41
+	minus: function(a,b) {return a-b}
+	^^^^^
+SyntaxError: Unexpected identifier
+    at Object.exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:41
+	minus: function(a,b) {return a-b; }
+	^^^^^
+SyntaxError: Unexpected identifier
+    at Object.exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:41
+	minus: function(a,b) {return a-b; }
+	^^^^^
+SyntaxError: Unexpected identifier
+    at Object.exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:43
+	minus: function(a,b) {return a-b; }
+	^^^^^
+SyntaxError: Unexpected identifier
+    at Object.exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+2
+5
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+1
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+1
+1
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+1
+1
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:86
+console.log(counter)
+            ^
+
+ReferenceError: counter is not defined
+    at Object.<anonymous> (/Users/jackgorlin/Desktop/comp420/Class_3/test.js:86:13)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:86
+console.log(counter)
+            ^
+
+ReferenceError: counter is not defined
+    at Object.<anonymous> (/Users/jackgorlin/Desktop/comp420/Class_3/test.js:86:13)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:86
+console.log(counter)
+            ^
+
+ReferenceError: counter is not defined
+    at Object.<anonymous> (/Users/jackgorlin/Desktop/comp420/Class_3/test.js:86:13)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+0
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+0
+0
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+0
+0
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+0
+0
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+0
+0
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+0
+0
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+0
+0
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:119
+console.log(counter)
+            ^
+
+ReferenceError: counter is not defined
+    at Object.<anonymous> (/Users/jackgorlin/Desktop/comp420/Class_3/test.js:119:13)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:119
+console.log(counter)
+            ^
+
+ReferenceError: counter is not defined
+    at Object.<anonymous> (/Users/jackgorlin/Desktop/comp420/Class_3/test.js:119:13)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:118
+console.log(counter)
+            ^
+
+ReferenceError: counter is not defined
+    at Object.<anonymous> (/Users/jackgorlin/Desktop/comp420/Class_3/test.js:118:13)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:118
+console.log(counter)
+            ^
+
+ReferenceError: counter is not defined
+    at Object.<anonymous> (/Users/jackgorlin/Desktop/comp420/Class_3/test.js:118:13)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 19, 3, 4 ]
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+4
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 19, 3, 4, 5 ]
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 19, 3, 4, 'jason', 5 ]
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 19, 3, 4, 'jason', 5 ]
+[ 'apple', 'banana', 'mango' ]
+[ 8, 19, 123, 234 ]
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 19, 3, 4, 'jason', 5 ]
+[ 'apple', 'banana', 'mango' ]
+[ 234, 123, 19, 8 ]
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 19, 3, 4, 'jason', 5 ]
+[ 'apple', 'banana', 'mango' ]
+[ 234, 123, 19, 8 ]
+apple,banana,mango
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 19, 3, 4, 'jason', 5 ]
+[ 'apple', 'banana', 'mango' ]
+[ 234, 123, 19, 8 ]
+apple,banana,mango
+apple-banana-mango
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:131
+fruits.push("orange"));
+                     ^
+SyntaxError: Unexpected token )
+    at Object.exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:131
+fruits.push("orange"));
+                     ^
+SyntaxError: Unexpected token )
+    at Object.exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 19, 3, 4, 'jason', 5 ]
+[ 'apple', 'banana', 'mango' ]
+[ 234, 123, 19, 8 ]
+apple,banana,mango
+apple-banana-mango
+apple,banana,mango,orange
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 19, 3, 4, 'jason', 5 ]
+[ 'apple', 'banana', 'mango' ]
+[ 234, 123, 19, 8 ]
+apple,banana,mango
+apple-banana-mango
+apple,banana,mango,orange
+apple,banana,mango
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 19, 3, 4, 'jason', 5 ]
+[ 'apple', 'banana', 'mango' ]
+[ 234, 123, 19, 8 ]
+apple,banana,mango
+apple-banana-mango
+apple,banana,mango,orange
+apple,banana,mango
+banana,mango
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 19, 3, 4, 'jason', 5 ]
+[ 'apple', 'banana', 'mango' ]
+[ 234, 123, 19, 8 ]
+apple,banana,mango
+apple-banana-mango
+apple,banana,mango,orange
+apple,banana,mango
+banana,mango
+avocado,banana,mango
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 19, 3, 4, 'jason', 5 ]
+[ 'apple', 'banana', 'mango' ]
+[ 234, 123, 19, 8 ]
+apple,banana,mango
+apple-banana-mango
+apple,banana,mango,orange
+apple,banana,mango
+banana,mango
+avocado,banana,mango
+[ 234, 123, 8 ]
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 2, 3, 4, 5 ]
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:151
+console.log(x.reduce(a,b) { return a + b; }))
+                        ^
+SyntaxError: missing ) after argument list
+    at Object.exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+/Users/jackgorlin/Desktop/comp420/Class_3/test.js:151
+console.log(x.reduce(a,b) { return a + b; }))
+                        ^
+SyntaxError: missing ) after argument list
+    at Object.exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:418:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:533:3
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 2, 3, 4, 5 ]
+6
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ node test.js
+[ 2, 3, 4, 5 ]
+6
+[ 2, 3 ]
+Jacks-MacBook-Pro-3:Class_3 jackgorlin$ 

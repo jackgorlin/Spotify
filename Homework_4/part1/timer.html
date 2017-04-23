@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Timer</title>
+	<link rel="stylesheet" href="timer.css">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style = "background-color: lightblue; padding-top: 100px;">
+	<div id="main">
+
+		<div id="timer" class = "timer-div" style = ></div>
+
+		<div class = "button-container ">
+			<button class = "timer-button" data-btn="start">Start/Resume</button>
+			<button class = "timer-button" data-btn="pause">Pause</button>
+			<button class = "timer-button" data-btn="reset">Reset</button>
+		</div>
+
+		<audio data-audio="tick" src="tick.mp3"></audio>
+		<audio data-audio="alarm" src="alarm.wav"></audio>
+	</div>
+	<script src="timer.js"></script>
+</body>
+</html>

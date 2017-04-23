@@ -1,0 +1,24 @@
+Last login: Tue Apr 18 21:28:53 on ttys001
+Jacks-MacBook-Pro-3:~ jackgorlin$ cd Desktop
+Jacks-MacBook-Pro-3:Desktop jackgorlin$ cd comp420
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ cd Class_9
+Jacks-MacBook-Pro-3:Class_9 jackgorlin$ cd mongo_demo
+Jacks-MacBook-Pro-3:mongo_demo jackgorlin$ heroku login
+Enter your Heroku credentials:
+Email: jgorlin@wesleyan.edu
+Password: ***********
+Logged in as jgorlin@wesleyan.edu
+Jacks-MacBook-Pro-3:mongo_demo jackgorlin$ echo "web: npm start" >> Procfile
+Jacks-MacBook-Pro-3:mongo_demo jackgorlin$ ls
+Procfile	Spotify.html	bootstrap	node_modules	server.js
+Spotify.css	Spotify.js	index.html	package.json
+Jacks-MacBook-Pro-3:mongo_demo jackgorlin$ git add .
+Jacks-MacBook-Pro-3:mongo_demo jackgorlin$ 
+
+
+
+
+
+
+
+

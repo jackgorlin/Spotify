@@ -1,0 +1,213 @@
+Day 1 Introduction - HTML, CSS, Version Control
+
+	HTML
+		Markup Language for the web
+
+		Example:
+
+			Simple HTML Elements
+
+			<h1> Hello World! </h1>  <---- Header with opening tag, intter text, and closing tag
+
+			<a href = "https://www.google.com">
+			Link to Google
+			</A>
+
+								href is atrribute key
+								in "" is attribute value
+
+			Nested HTML Elements
+
+			<ul class = "list pretty-list" id="my-list">
+			<Li onclick="do-sth"> One </li>
+			<li onclick = "do-sth"> Two </li>
+			</ul>
+
+								** ul is list I think
+
+
+		HTML Document
+			Stored in *.html files
+			Common Structure
+				<!DOCTYPE html>
+				<html>
+					<head>
+						...
+					</head>  <--- metadata
+					<body>
+					...
+					</body>  
+				</html>
+
+
+				Metadata: Hidden info about page
+
+
+		HTML PROCESS
+			parsting t oconstruct DOM tree -->
+			render tree construction-->
+			layout of render tree -->
+			planting the render tree
+
+
+	Common Tags on Moodle
+	
+	Inline Styling
+
+		Style Atrribute
+			<e1 style = "...."> Styled ELement </e1>   *el doesn't exist is any element
+														*... is code example 2
+
+		Problem: Repeated code, hard to debug
+
+		Solution: CSS
+
+		HTML link to *.css file:
+			<link rel="stylesheet" href="link/to/css/file">
+
+		CSS syntax:
+
+			slector {
+				style-1: value;
+				style-2: value;
+			}
+
+
+	Important HTML atrributes for styling:
+		class :common identification for many elements
+			<el class="class-1 class-2...class-n"
+				Element 1
+			</el>
+
+			<el class="class-1 class-4...class-n"
+				Element 2
+			</el>
+
+		id :unique identification for an element
+
+	Selectors
+		Tag Selector
+			tag-name{...}
+		Class selector
+			.class-name{...}
+		ID selector
+			#unique-id{...}
+		Attribute Selector
+			selector[attrKey="attrVal"]
+		Child selector (use sparingly)
+			selector-1 > selector 2 > ... slector-n {...}
+		Descendant selector (avoid)
+			selector 1 selector 2 ... selector-n{...}
+
+
+	The Box Model:
+		Every element is contained in a rectangle
+			<body>
+				<div>
+					<h1></h1>h1>
+					<p></p>
+				</div>
+			</body>
+
+		Controls how elements are positioned and interact with each other
+		Code example 4
+
+
+	Positioning
+		CSS position rule dictates position relative to document
+
+		static (default)
+		relative
+			positioned usting top, left, right, bottom - relative to static positioon
+			elements inside are positioned relative to parent
+		absolute
+			positioned relative to first non-static ancestor element
+		fixed
+			positioned relative to the browser window
+		float
+			pushed as far possible left or right
+			text can wrap arond it
+			float is defined as a seperate property from position (float: right, float: left)
+
+
+
+	Git / Github - Version Control
+
+
+
+
+
+
+Day 2 Introduction - CSS and Boostrapping
+
+
+
+	Absolute path vs relative path
+		->HW --> index.HTML
+		->Media _>img
+		src = media/
+
+
+	Bootstrap
+		Grid
+			12 columns
+				*float left displays things horizontally 
+		col-lg-*
+		col-md-*
+		col-sm-*
+		col-xs-*
+			class="col-lg-4 col-md-3 col-sm-6"
+
+
+
+
+Day 3 JavaScript
+
+	variable declaration
+		var x = <value>;
+
+		== doesn't compare types 
+		=== also checks types
+
+		us const and let (check those two words on slides) instead of var
+
+		Object declaration
+			var x {
+				key 1: value1,
+				key2: value2
+				...
+				keyN: valueN
+			};
+			
+		Object Retrieval
+			x.key1 -> value1
+
+		Object update
+			x.key1 = newValue
+
+		This keyword
+			this refers to the object itself	
+
+
+
+
+	Day 4 Javastuff and DOM
+
+
+		Dom
+			specifes
+				ancestor, parent, sibling, child, descendant
+			2 - step
+				access and then work with 
+
+		Accessing
+			javascript selector (document key)
+
+			querySelector(<CSS selector>)
+				document.querySelector(".mydiv") --> picking like CSS one
+
+
+
+
+
+Day 5 Review

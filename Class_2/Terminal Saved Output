@@ -1,0 +1,23 @@
+Last login: Fri Feb 10 10:05:49 on console
+Jacks-MacBook-Pro-3:~ jackgorlin$ cd Desktop
+Jacks-MacBook-Pro-3:Desktop jackgorlin$ cd comp420
+Jacks-MacBook-Pro-3:comp420 jackgorlin$ cd Class_2
+Jacks-MacBook-Pro-3:Class_2 jackgorlin$ git clone https://github.com/Comp420/week2-bootstrapcode.git
+Cloning into 'week2-bootstrapcode'...
+remote: Counting objects: 35, done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 35 (delta 8), reused 35 (delta 8), pack-reused 0
+Unpacking objects: 100% (35/35), done.
+Checking connectivity... done.
+Jacks-MacBook-Pro-3:Class_2 jackgorlin$ 
+
+
+
+
+
+
+
+
+
+
+
