@@ -1,0 +1,62 @@
+#trackDiv {
+	font-family: "Proxima Nova";
+	background-color: lightblue;
+	text-align: left;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	border-style: solid;
+
+}
+
+#artistDiv{
+	font-family: "Proxima Nova";
+	background-color: pink;
+	text-align: left;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	border-style: solid;
+}
+
+
+#title{
+	font-family: "Proxima Nova";
+	text-align: center;
+	text-decoration: bold;
+	font-size: 50px;
+	padding-top: 25px;
+	padding-bottom: 2%;
+}
+
+#sectionTitle {
+	text-align: center;
+	font-size:25px;
+}
+
+
+.cover {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-size: cover;
+    float: left;
+    padding-right: 50px;
+}
+
+#login-title{
+	margin-top: 20%;
+	text-align: center;
+	padding-bottom: 10px;
+	font-family: "Proxima Nova";
+}
+
+
+#login-button{
+	display: table;
+  	margin: 0 auto;
+  	font-family: "Proxima Nova";
+}
+
+#container {
+	text-decoration: center;
+
+}
